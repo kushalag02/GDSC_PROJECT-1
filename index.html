@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FILE UPLOAD PORTAL | IIT PATNA </title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="clg_logo">
+        <img src="logo.jpg" alt="logo" />
+      </div>
+      <ul>
+        <li class="item"><a href="">Home</a></li>
+        <li class="item"><a href="https://www.iitp.ac.in/index.php" target="_blank">View Site</a></li>
+        <li class="item"><a href="https://www.iitp.ac.in/index.php/contact" target="_blank">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="cover">
+      <div class="data">
+        <div class="data_box">
+          <img src="logo.jpg" class="logo_image">
+          <h2 class="box_title">UPLOAD FILE</h2>
+          <form action="">
+            <input
+              type="file"
+              id="Uploadfile"
+              accept=".doc,.docx,.pdf,.gif,.jpg"
+              hidden
+            />
+            <label for="Uploadfile" class="Uploadfile_label">
+              <span>
+                <i class="fa-fa-cloud-upload"></i>
+                <!-- <input type="submit" value="Upload" name="submit" /> -->
+              </span>
+              <p>CLICK TO UPLOAD</p>
+            </label>
+          </form>
+        </div>
+        <div id="filewrapper">
+          <h3 class="uploaded">UPLOADED DOCUMENTS -</h3>
+          <div class="uploaded_filebox">
+            <div class="PART_A">
+              <span class="filetype">Pdf</span>
+              <h2>kushal_certificate.pdf</h2>
+            </div>
+            <div class="PART_B">
+              <span>&#215;</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

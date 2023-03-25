@@ -1,0 +1,182 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav bar styling */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}
+#navbar::before {
+  content: "";
+  background-color: rgb(209, 143, 89);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  top: 0px;
+  left: 0px;
+}
+#clg_logo {
+  margin: 10px 35px;
+}
+#clg_logo img {
+  height: 60px;
+  margin: 0px 6px;
+  border-radius: 100px;
+}
+
+/*list styling*/
+
+#navbar ul {
+  display: flex;
+  font-family: cursive;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  gap: 8px;
+}
+#navbar ul li a {
+  display: block;
+  color: white;
+  padding: 5px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: rgb(246, 147, 18);
+}
+
+/* BACKGROUND */
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(209, 143, 89);
+}
+
+/* BOX STRUCTURE */
+
+.data {
+  background-color: rgb(248, 248, 248);
+  min-height: 500px;
+  min-width: 500px;
+  padding: 35px;
+  border-radius: 12px;
+}
+
+/* BOX HEADING */
+
+.box_title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 29px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+/* IIT PATNA LOGO */
+
+.logo_image {
+  width: 140px;
+  margin-left: 143px;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+
+/* UPLOAD AREA */
+
+.Uploadfile_label {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 200, 150);
+  border: 5px dashed rosybrown;
+  cursor: pointer;
+}
+
+/* .Uploadfile_label span {
+  font-size: 100px;
+  color: rgb(226, 198, 43);
+} */
+
+.Uploadfile_label p {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(26, 26, 26);
+}
+
+/* Uploaded documents area */
+
+.uploaded {
+  margin: 30px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: brown;
+}
+.uploaded_filebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 220, 220);
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 8px;
+  gap: 40px;
+}
+.uploaded_filebox .PART_A {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* FILE DETAILS */
+
+.PART_A .filetype {
+  background-color: rgb(255, 1, 1);
+  color: aliceblue;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.PART_A h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* CROSS AREA  */
+
+.PART_B {
+  background: #1e9b60;
+  color: bisque;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+}
